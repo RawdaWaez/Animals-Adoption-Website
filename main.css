@@ -1,0 +1,455 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    height: 100%;
+
+
+
+}
+
+#datetime {
+    color: white;
+}
+
+#date {
+    width: 200px;
+    margin: 2px;
+    float: right;
+
+
+}
+
+header {
+    background-color: #091b2b;
+    color: rgb(234, 209, 213);
+    padding: 10px;
+    height: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#logo {
+    height: 150px;
+    width: 150px;
+    padding-right: 20pt;
+    padding-left: 30pt;
+}
+
+#give-love {
+    height: 20px;
+    width: 20px;
+
+
+}
+
+
+aside {
+
+    float: left;
+    width: fit-content;
+    background-color: lightsteelblue;
+    height: 100%;
+    margin-right: 0;
+
+}
+
+.active {
+    background-color: rgb(234, 209, 213);
+    color: #333;
+}
+
+nav a {
+    color: #333;
+    padding: 10px;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color: rgb(234, 209, 213);
+    color: #333;
+    cursor: pointer;
+}
+
+ul>li {
+    list-style: none;
+    width: 200pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    margin-inline: auto;
+    margin-left: 0;
+}
+
+table>td {
+    text-align: center;
+
+
+}
+
+main {
+    float: right;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    min-width: 200pt;
+    margin-bottom: 80px;
+    color: #091b2b;
+
+
+}
+
+footer {
+    width: 100%;
+    background-color: #091b2b;
+    color: rgb(234, 209, 213);
+    bottom: 0px;
+    text-align: center;
+    position: fixed;
+}
+
+body {
+
+    background-color: #dad2d8;
+    margin: 0%;
+    min-width: 450pt;
+    height: 100%;
+
+}
+
+
+p {
+    font-size: 12pt;
+}
+
+h2 {
+    font-size: 18pt;
+
+}
+
+#img2 {
+    width: 30%;
+    height: 30%;
+    float: center;
+    border-radius: 30px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+
+}
+
+.Copyright {
+
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+.paragraph {
+    color: #091b2b;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-inline: 5%;
+    margin-top: 2%;
+    min-height: 500px;
+    margin-bottom: 10%;
+}
+
+.bottonColor {
+    background-color: rgb(234, 209, 213);
+    color: #091b2b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bottonColor:hover {
+    background-color: pink;
+}
+
+.bottonColor:active {
+    background-color: lightpink;
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    left: 50%;
+}
+
+.reset {
+    background-color: lightblue;
+    transition: 0.4s;
+    color: #091b2b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.reset:hover {
+    background-color: rgb(100, 176, 223);
+    transition: 0.4s;
+}
+
+.reset:active {
+    background-color: rgb(56, 122, 207);
+}
+
+.GiveAwayText,
+.GiveAwaySelect,
+.GiveAwayTextArea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #091b2b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.GiveAwayTextArea {
+    resize: none;
+    height: 120px;
+    width: 450px;
+    
+
+}
+
+.GiveAwayTextArea,
+.GiveAwayText {
+    width: 96%;
+    display: block;
+ 
+
+}
+
+.GiveAwaySelect {
+    width: 100%;
+   
+}
+
+.GiveAwaylabel , .Loginlabel {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+}
+
+#FindHeader {
+
+    text-align: center;
+
+}
+
+.option {
+    font-weight: normal;
+}
+
+.pet-search-form {
+
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    color: #091b2b;
+    padding: 25px;
+    border-radius: 5pt;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.FindSelect {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.FindLabel {
+
+    font-weight: bold;
+
+}
+
+.Sources {
+    color: #091b2b;
+    text-decoration: none;
+    line-height: 1.5;
+
+}
+
+.main_browse {
+    display: contents;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 2%;
+    
+}
+
+.pet-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    gap: 50px;
+
+
+}
+
+.pet-item {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93%;
+
+}
+
+.pet-name {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.pet-description {
+    font-size: 1.2rem;
+}
+
+.petDetail {
+    margin: 10px 0 0;
+    margin-top: auto;
+}
+
+.petDetail strong {
+    font-weight: bold;
+}
+
+.interested-btn {
+    background-color: lightpink;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: auto;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.pet-item .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pet-item img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.interested-btn:hover {
+    background-color: lightsteelblue;
+}
+
+.interested-btn:disabled {
+    background-color: #091b2b;
+    cursor: not-allowed;
+}
+
+.interested-btn:disabled:hover {
+    background-color: #091b2b;
+}
+.bottonLogin {
+    background-color: lightsteelblue;
+    color: #091b2b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bottonLogin:hover {
+    background-color: pink;
+}
+
+.bottonLogin:active {
+    background-color: #091b2b;
+}
+/* Login overlay */
+
+.beforeLogin{
+  
+    display: none;
+    margin-left:20%;
+}
+
+#giveAwayDiv{
+    position:fixed;
+    height: 30%;
+    width: 30%;
+    top:30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    
+
+}
+
+#GiveAwaylogin{
+    
+    padding: 20%;
+    text-align: center;
+    position: relative;
+    background-color: lightsteelblue;
+    
+}
+
+#GiveAwaylogin input{
+    padding: 10px;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+#GiveAwaylogin h3{
+    margin-bottom: 4%;
+}
+
+.GiveAwayButton {
+    background-color: lightpink;
+    color: #091b2b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.GiveAwayButton:hover {
+    background-color: pink;
+}
+
+.GiveAwayButton:active {
+    background-color: #091b2b;
+}
